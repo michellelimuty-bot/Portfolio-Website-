@@ -66,4 +66,9 @@ li a:hover::before{
   text-wrap: nowrap;
   transition:0.3s ease-in-out;
   background: linear-gradient;
+  transform:scale(1.03);
+}
+menu-icon{
+  font-size:2rem;
+  display:none;
 }
