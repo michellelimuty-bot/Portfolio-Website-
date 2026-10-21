@@ -2,13 +2,14 @@
   margin: 0;
   padding 0;
   nox - sizing: border-box;
-  font-family: 'Poopins';
+  font-family: 'Poopins',sans-serif;
   text - decoration: none;
   scroll-behavior: smooth;
   list-style:none;
 }
 header{
-  podition: fixed;
+  header {
+  position: fixed;
   top: 1rem;
   left: 50%;
   transform: translateX(-50%);
@@ -16,12 +17,12 @@ header{
   align-items: center;
   justify-content: center;
   gap: 5rem;
-  background-color: black;
-  backdrop-filter:blur(8px);
-  colour: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+  color: white;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  z-index:1000:
+  z-index: 1000;
 }
 .logo{
   color:white;
@@ -31,7 +32,7 @@ header{
   transition: 0.3s ease-in-out;
 }
 .logo:hover{
-  transform: scale(1,1);
+  transform: scale(1,1.05);
 }
 .nav-links{
   display: flex;
@@ -51,7 +52,7 @@ li a::before{
   top: 25px;
   border-radius: 1 rem;
   transition:0.3s ease-in-out;
-  background: linear-gradient;
+  background: linear-gradient(90deg, #ff7a18, #ff3d81);
 }
 li a:hover::before{
   width:100%;
@@ -65,7 +66,7 @@ li a:hover::before{
   cursor:pointer;
   text-wrap: nowrap;
   transition:0.3s ease-in-out;
-  background: linear-gradient;
+  background:linear-gradient(90deg, #ff7a18, #ff3d81);
   transform:scale(1.03);
 }
 menu-icon{
